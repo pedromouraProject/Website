@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raiz do Pensamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Inicio da navbar -->
+
+    <header class="header">
+        <div class="logo-container">
+            <a href="index.html"><img src="img/logo.png" alt="Logo da Raiz do Pensamento" href="index.html"></a>
+        </div>
+        <nav class="navbar">
+            <a href="#Sobre"><button>Sobre</button></a>
+            <a href="#Serviços"><button>Serviços</button></a>
+            <a href="#Contacto"><button>Contacto</button></a>
+            <a href="login.html"><button>Login</button></a>
+        </nav>
+    </header>
+
+    <!-- Fim da navbar -->
+
+    <!-- Inicio das secções -->
+
+    <section>
+        <img src="img/fundo.jpg" alt="fundo da Raiz do Pensamento" width="1730px">
+    </section>
+
+    <section id="Sobre" class="sobre">
+        <h1>Sobre Nós</h1>
+    </section>
+
+    <section id="Serviços" class="serviço">
+        <h1>Nossos Serviços</h1>
+    </section>
+
+    <section id="Contacto" class="contacto">
+        <h1>Nossos Contactos</h1>
+        
+        <form action="processar_formulario.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+    
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <!-- Fim das secções -->
+
+    <footer class="footer">
+        <p>&copy; 2023 Raiz do Pensamento. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

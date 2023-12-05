@@ -1,0 +1,98 @@
+body {
+    background: linear-gradient(135deg, #f39c12, #e74c3c, #9b59b6, #3498db);
+    margin: 0;
+    height: auto;
+    width: auto;
+    color: white; /* Define a cor do texto para branco para contrastar melhor com o fundo */
+    font-family: 'Arial', sans-serif; /* Especifica a fonte do texto */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    max-width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    margin-right: 10px; /* Adiciona um espaçamento à direita da imagem */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background:   linear-gradient(135deg, #3498db, #9b59b6, #e74c3c, #f39c12); /* Nova cor ao passar o mouse sobre o botão */
+    color: #fff; /* Cor do texto ao passar o mouse sobre o botão */
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.sobre,.serviço,.contacto{
+    margin-top: 200px;
+}
+
+.sobre,.serviço,.contacto h1{
+    text-align: center;
+}
+
+/* Adicione esses estilos após o seu CSS existente */
+
+.contacto form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
